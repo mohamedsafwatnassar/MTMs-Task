@@ -92,7 +92,6 @@ class MapFragment : BaseFragment(), OnMapReadyCallback {
         subscribeLocation()
     }
 
-    @SuppressLint("ClickableViewAccessibility")
     private fun setBtnListener() {
         binding.imgMenu.setOnClickListener {
             (requireActivity() as ViewsManager).openMenu()
