@@ -109,26 +109,6 @@ class MapFragment : BaseFragment(), OnMapReadyCallback {
         }
     }
 
-    private fun initDestinationRecycler(placesList: List<String>) {
-        if (placesList.isNotEmpty()) {
-            binding.rvPlaces.visibility = View.VISIBLE
-            binding.rvPlaces.apply {
-                searchPlacesAdapter = SearchPlacesAdapter(placesList, onSearchPlacesClickCallback)
-                layoutManager = LinearLayoutManager(requireContext())
-                adapter = searchPlacesAdapter
-            }
-        }
-    }
-
-    private fun initSourceRecycler(sourceList: List<SourceModel>) {
-        binding.rvPlaces.visibility = View.VISIBLE
-        binding.rvPlaces.apply {
-            placesAdapter = PlacesAdapter(sourceList, onPlacesClickCallback)
-            layoutManager = LinearLayoutManager(requireContext())
-            adapter = placesAdapter
-        }
-    }
-
     private fun subscribeHandleData() {
         vm.handleData.observe(viewLifecycleOwner, {
             it.let {
@@ -167,6 +147,26 @@ class MapFragment : BaseFragment(), OnMapReadyCallback {
                 }
             }
         })
+    }
+
+    private fun initDestinationRecycler(placesList: List<String>) {
+        if (placesList.isNotEmpty()) {
+            binding.rvPlaces.visibility = View.VISIBLE
+            binding.rvPlaces.apply {
+                searchPlacesAdapter = SearchPlacesAdapter(placesList, onSearchPlacesClickCallback)
+                layoutManager = LinearLayoutManager(requireContext())
+                adapter = searchPlacesAdapter
+            }
+        }
+    }
+
+    private fun initSourceRecycler(sourceList: List<SourceModel>) {
+        binding.rvPlaces.visibility = View.VISIBLE
+        binding.rvPlaces.apply {
+            placesAdapter = PlacesAdapter(sourceList, onPlacesClickCallback)
+            layoutManager = LinearLayoutManager(requireContext())
+            adapter = placesAdapter
+        }
     }
 
     private fun subscribeLocation() {
