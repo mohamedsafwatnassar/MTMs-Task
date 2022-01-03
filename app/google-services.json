@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1015095726931",
+    "project_id": "mtms-task-81e82",
+    "storage_bucket": "mtms-task-81e82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015095726931:android:c6a930562653bdcbeb07a6",
+        "android_client_info": {
+          "package_name": "com.example.mtmstask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015095726931-1ni8o8lvhc4mjohdbvc0itceudvg3tm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC55TD5kIoBVoU8DYPuRnlZRQ5qSbLrzz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015095726931-1ni8o8lvhc4mjohdbvc0itceudvg3tm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

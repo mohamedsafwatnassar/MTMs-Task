@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MTMs Task</string>
+
+    <string name="google_maps_key"
+        templateMergeStrategy="preserve"
+        translatable="false">AIzaSyDV2_xy58r15K6TskZy4KWMuhUDVq67jqM
+    </string>
+
+    <!-- Base Fragment -->
+    <string name="need_GPS">Open GPS to Complete Process</string>
+    <string name="open_location_settings">Open Settings</string>
+    <string name="no_gps">No GPS</string>
+    <string name="retry">Retry</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="please_open_gbs">Please Open GBS </string>
+
+    <!-- Main Activity -->
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+    <string name="checkConnection">Check Your Connection</string>
+    <string name="internet_connection_failure">Internet Connection Failure, Please check Internet </string>
+
+    <!-- Drawer Layout -->
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="wallet">Wallet</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share">Share</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+
+    <!-- Map Fragment -->
+    <string name="your_location">Your location</string>
+    <string name="destination">Destination</string>
+    <string name="permission_needed">Permission Needed</string>
+    <string name="picture_permission_explanation">Need Storage Permission To Complete Action</string>
+    <string name="location">Location</string>
+    <string name="request_rd">REQUEST RD</string>
+
+
+</resources>
